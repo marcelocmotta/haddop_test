@@ -1,0 +1,41 @@
+ulimit -a for user hdfs
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 60033
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 32768
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 65536
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+2019-12-23T00:53:04.644+0000: 4.134: [GC (Allocation Failure) 2019-12-23T00:53:04.644+0000: 4.134: [ParNew: 64512K->8000K(72512K), 0.0377480 secs] 64512K->9455K(233664K), 0.0378364 secs] [Times: user=0.03 sys=0.01, real=0.04 secs] 
+2019-12-23T00:53:06.527+0000: 6.017: [GC (Allocation Failure) 2019-12-23T00:53:06.527+0000: 6.017: [ParNew: 70559K->8000K(72512K), 0.1233341 secs] 72014K->14591K(233664K), 0.1234046 secs] [Times: user=0.07 sys=0.01, real=0.12 secs] 
+2019-12-23T00:53:06.971+0000: 6.461: [GC (Allocation Failure) 2019-12-23T00:53:06.971+0000: 6.461: [ParNew: 72512K->6052K(72512K), 0.1253333 secs] 79103K->62556K(233664K), 0.1254077 secs] [Times: user=0.17 sys=0.01, real=0.12 secs] 
+2019-12-23T00:53:07.099+0000: 6.589: [GC (CMS Initial Mark) [1 CMS-initial-mark: 56504K(161152K)] 64245K(233664K), 0.0153700 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-12-23T00:53:07.115+0000: 6.605: [CMS-concurrent-mark-start]
+2019-12-23T00:53:07.226+0000: 6.716: [CMS-concurrent-mark: 0.110/0.112 secs] [Times: user=0.09 sys=0.00, real=0.11 secs] 
+2019-12-23T00:53:07.227+0000: 6.717: [CMS-concurrent-preclean-start]
+2019-12-23T00:53:07.228+0000: 6.718: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-12-23T00:53:07.228+0000: 6.718: [CMS-concurrent-abortable-preclean-start]
+2019-12-23T00:53:08.434+0000: 7.924: [CMS-concurrent-abortable-preclean: 0.059/1.206 secs] [Times: user=0.78 sys=0.02, real=1.21 secs] 
+2019-12-23T00:53:08.434+0000: 7.924: [GC (CMS Final Remark) [YG occupancy: 64936 K (72512 K)]2019-12-23T00:53:08.434+0000: 7.924: [Rescan (parallel) , 0.0199306 secs]2019-12-23T00:53:08.454+0000: 7.944: [weak refs processing, 0.0000725 secs]2019-12-23T00:53:08.454+0000: 7.944: [class unloading, 0.0044861 secs]2019-12-23T00:53:08.459+0000: 7.949: [scrub symbol table, 0.0245920 secs]2019-12-23T00:53:08.484+0000: 7.974: [scrub string table, 0.0006137 secs][1 CMS-remark: 56504K(161152K)] 121440K(233664K), 0.0498693 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-12-23T00:53:08.490+0000: 7.980: [CMS-concurrent-sweep-start]
+2019-12-23T00:53:08.493+0000: 7.983: [CMS-concurrent-sweep: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-12-23T00:53:08.493+0000: 7.983: [CMS-concurrent-reset-start]
+2019-12-23T00:53:08.538+0000: 8.028: [GC (Allocation Failure) 2019-12-23T00:53:08.538+0000: 8.028: [ParNew: 70564K->2433K(72512K), 0.0278010 secs] 124805K->60906K(233664K), 0.0278863 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-12-23T00:53:08.594+0000: 8.084: [CMS-concurrent-reset: 0.071/0.101 secs] [Times: user=0.09 sys=0.02, real=0.10 secs] 
+2019-12-23T01:43:09.036+0000: 3008.539: [GC (Allocation Failure) 2019-12-23T01:43:09.049+0000: 3008.539: [ParNew: 66945K->1643K(72512K), 0.0065171 secs] 125418K->60116K(233664K), 0.0190335 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-12-23T02:06:19.452+0000: 4398.960: [GC (Allocation Failure) 2019-12-23T02:06:19.470+0000: 4398.960: [ParNew: 66155K->4154K(72512K), 0.0309022 secs] 124628K->62627K(233664K), 0.0487233 secs] [Times: user=0.11 sys=0.00, real=0.05 secs] 
+2019-12-23T03:53:20.457+0000: 10819.971: [GC (Allocation Failure) 2019-12-23T03:53:20.482+0000: 10819.972: [ParNew: 68666K->2575K(72512K), 0.0088541 secs] 127139K->61048K(233664K), 0.0334533 secs] [Times: user=0.04 sys=0.00, real=0.04 secs] 
+2019-12-23T05:53:21.221+0000: 18020.711: [GC (Allocation Failure) 2019-12-23T05:53:21.221+0000: 18020.711: [ParNew: 67087K->2102K(72512K), 0.0078440 secs] 125560K->60575K(233664K), 0.0079159 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+2019-12-23T07:53:21.866+0000: 25221.356: [GC (Allocation Failure) 2019-12-23T07:53:21.866+0000: 25221.356: [ParNew: 66614K->3069K(72512K), 0.0092616 secs] 125087K->61543K(233664K), 0.0093869 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2019-12-23T10:07:22.625+0000: 33262.115: [GC (Allocation Failure) 2019-12-23T10:07:22.625+0000: 33262.115: [ParNew: 67581K->1961K(72512K), 0.0065172 secs] 126055K->60900K(233664K), 0.0065934 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-12-23T12:10:23.239+0000: 40642.729: [GC (Allocation Failure) 2019-12-23T12:10:23.239+0000: 40642.729: [ParNew: 66473K->1580K(72512K), 0.0040485 secs] 125412K->60764K(233664K), 0.0041644 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2019-12-23T14:31:23.782+0000: 49103.272: [GC (Allocation Failure) 2019-12-23T14:31:23.782+0000: 49103.272: [ParNew: 66092K->1115K(72512K), 0.0047182 secs] 125276K->61159K(233664K), 0.0047975 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 

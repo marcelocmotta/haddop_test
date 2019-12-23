@@ -1,0 +1,35 @@
+2019-12-23T00:53:28.924+0000: 1.526: [GC (Allocation Failure) 2019-12-23T00:53:28.925+0000: 1.526: [ParNew: 64512K->7999K(72512K), 0.0209108 secs] 64512K->9298K(233664K), 0.0209899 secs] [Times: user=0.03 sys=0.01, real=0.02 secs] 
+2019-12-23T00:53:29.274+0000: 1.876: [GC (Allocation Failure) 2019-12-23T00:53:29.274+0000: 1.876: [ParNew: 72511K->8000K(72512K), 0.0278764 secs] 73810K->13414K(233664K), 0.0279361 secs] [Times: user=0.09 sys=0.01, real=0.03 secs] 
+2019-12-23T00:53:29.840+0000: 2.442: [GC (Allocation Failure) 2019-12-23T00:53:29.840+0000: 2.442: [ParNew: 72512K->5983K(72512K), 0.0076540 secs] 77926K->12100K(233664K), 0.0077358 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2019-12-23T00:53:29.848+0000: 2.450: [GC (CMS Initial Mark) [1 CMS-initial-mark: 6116K(161152K)] 12100K(233664K), 0.0013851 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-12-23T00:53:29.850+0000: 2.451: [CMS-concurrent-mark-start]
+2019-12-23T00:53:29.890+0000: 2.492: [CMS-concurrent-mark: 0.041/0.041 secs] [Times: user=0.07 sys=0.01, real=0.05 secs] 
+2019-12-23T00:53:29.891+0000: 2.492: [CMS-concurrent-preclean-start]
+2019-12-23T00:53:29.891+0000: 2.493: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-12-23T00:53:29.892+0000: 2.493: [CMS-concurrent-abortable-preclean-start]
+2019-12-23T00:53:34.028+0000: 6.630: [CMS-concurrent-abortable-preclean: 0.625/4.137 secs] [Times: user=2.64 sys=0.29, real=4.13 secs] 
+2019-12-23T00:53:34.028+0000: 6.630: [GC (CMS Final Remark) [YG occupancy: 40964 K (72512 K)]2019-12-23T00:53:34.028+0000: 6.630: [Rescan (parallel) , 0.0300424 secs]2019-12-23T00:53:34.059+0000: 6.660: [weak refs processing, 0.0000537 secs]2019-12-23T00:53:34.059+0000: 6.660: [class unloading, 0.0050919 secs]2019-12-23T00:53:34.064+0000: 6.665: [scrub symbol table, 0.0044474 secs]2019-12-23T00:53:34.068+0000: 6.670: [scrub string table, 0.0004412 secs][1 CMS-remark: 6116K(161152K)] 47081K(233664K), 0.0403579 secs] [Times: user=0.11 sys=0.00, real=0.04 secs] 
+2019-12-23T00:53:34.069+0000: 6.671: [CMS-concurrent-sweep-start]
+2019-12-23T00:53:34.072+0000: 6.674: [CMS-concurrent-sweep: 0.003/0.003 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-12-23T00:53:34.072+0000: 6.674: [CMS-concurrent-reset-start]
+2019-12-23T00:53:34.130+0000: 6.732: [CMS-concurrent-reset: 0.058/0.058 secs] [Times: user=0.05 sys=0.03, real=0.05 secs] 
+2019-12-23T00:53:34.787+0000: 7.388: [GC (Allocation Failure) 2019-12-23T00:53:34.787+0000: 7.388: [ParNew: 70495K->3682K(72512K), 0.0089370 secs] 75231K->9543K(233664K), 0.0090267 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-12-23T00:53:35.883+0000: 8.485: [GC (Allocation Failure) 2019-12-23T00:53:35.883+0000: 8.485: [ParNew: 68194K->3653K(72512K), 0.0091535 secs] 74055K->9514K(233664K), 0.0092283 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+Dec 23, 2019 12:53:36 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.mapreduce.v2.hs.webapp.HsWebServices as a root resource class
+Dec 23, 2019 12:53:36 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.mapreduce.v2.hs.webapp.JAXBContextResolver as a provider class
+Dec 23, 2019 12:53:36 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering org.apache.hadoop.yarn.webapp.GenericExceptionHandler as a provider class
+2019-12-23T00:53:36.375+0000: 8.977: [GC (Allocation Failure) 2019-12-23T00:53:36.375+0000: 8.977: [ParNew: 68165K->2673K(72512K), 0.0306005 secs] 74026K->8534K(233664K), 0.0306724 secs] [Times: user=0.06 sys=0.00, real=0.03 secs] 
+Dec 23, 2019 12:53:36 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Dec 23, 2019 12:53:36 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.mapreduce.v2.hs.webapp.JAXBContextResolver to GuiceManagedComponentProvider with the scope "Singleton"
+Dec 23, 2019 12:53:36 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.yarn.webapp.GenericExceptionHandler to GuiceManagedComponentProvider with the scope "Singleton"
+2019-12-23T00:53:37.273+0000: 9.875: [GC (Allocation Failure) 2019-12-23T00:53:37.273+0000: 9.875: [ParNew: 67185K->6000K(72512K), 0.0128930 secs] 73046K->11861K(233664K), 0.0130025 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+Dec 23, 2019 12:53:37 AM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding org.apache.hadoop.mapreduce.v2.hs.webapp.HsWebServices to GuiceManagedComponentProvider with the scope "PerRequest"
+2019-12-23T02:31:34.697+0000: 5887.343: [GC (Allocation Failure) 2019-12-23T02:31:34.741+0000: 5887.343: [ParNew: 70512K->3168K(72512K), 0.0168708 secs] 76373K->10783K(233664K), 0.0608466 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-12-23T07:37:05.361+0000: 24217.979: [GC (Allocation Failure) 2019-12-23T07:37:05.378+0000: 24217.980: [ParNew: 67680K->4373K(72512K), 0.0174456 secs] 75295K->11989K(233664K), 0.0342027 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
