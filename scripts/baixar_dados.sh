@@ -2,7 +2,7 @@
 ###
 #  Parametros
 ###
-ANO=2014
+ANO=(2014 2015 2016 2017 2018 2019)
 MESES=12
 mkdir dados
 mkdir dados/pids
